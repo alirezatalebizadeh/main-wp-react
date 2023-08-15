@@ -3,6 +3,8 @@
 }
 
 .mySwiper {
+    /* background-color: yellow; */
+    width: 100%;
     padding: 50px 0;
     position: relative;
 }

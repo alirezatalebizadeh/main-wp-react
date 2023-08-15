@@ -2,3 +2,39 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.title_brand {
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.title_brand .logo {
+    color: #7DB201;
+    font-size: 4rem;
+}
+
+
+@media screen and (max-width: 480px) {
+    .title_brand {
+        font-size: 0.7rem !important;
+    }
+    .title_brand .logo {
+        color: #7DB201;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title_brand {
+        font-size: 1.3rem !important;
+    }
+    .title_brand .logo {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .title_brand {
+        font-size: 1.7rem;
+    }
+}
