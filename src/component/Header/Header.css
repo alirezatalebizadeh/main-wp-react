@@ -1,0 +1,73 @@
+.btn_account {
+    margin-right: 100px;
+}
+
+.header {
+    background-color: #1C1C1A;
+    height: 90vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 100% 86%, 98% 90%, 95% 91%, 92% 93%, 86% 95%, 81% 96%, 79% 96%, 76% 97%, 73% 98%, 70% 98%, 66% 99%, 57% 99%, 54% 99%, 52% 99%, 49% 99%, 45% 98%, 42% 98%, 37% 97%, 34% 97%, 28% 95%, 25% 94%, 21% 93%, 17% 91%, 13% 90%, 10% 89%, 7% 87%, 3% 86%, 1% 84%, 0% 84%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 100% 86%, 98% 90%, 95% 91%, 92% 93%, 86% 95%, 81% 96%, 79% 96%, 76% 97%, 73% 98%, 70% 98%, 66% 99%, 57% 99%, 54% 99%, 52% 99%, 49% 99%, 45% 98%, 42% 98%, 37% 97%, 34% 97%, 28% 95%, 25% 94%, 21% 93%, 17% 91%, 13% 90%, 10% 89%, 7% 87%, 3% 86%, 1% 84%, 0% 84%);
+}
+
+.header_bottom {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.left_header {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_left {
+    font-size: 5rem;
+    color: white;
+}
+
+.right_header {
+    flex-basis: 50%;
+    color: #FFFFFF;
+    display: flex;
+    row-gap: 30px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: right;
+    padding: 60px;
+}
+
+.btn_header {
+    max-width: 200px;
+    align-self: end;
+}
+
+.form_search {
+    position: relative;
+    /* background-color: red; */
+    padding: 10px;
+    height: 50px;
+
+}
+
+.form_search input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: right;
+
+}
+
+.btn_form {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 7px;
+}
