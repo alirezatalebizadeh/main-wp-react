@@ -6,6 +6,7 @@
 .title_brand {
     text-align: center;
     font-size: 1.9rem;
+    color: #1C1C1A;
 }
 
 .title_brand .logo {
@@ -13,14 +14,99 @@
     font-size: 4rem;
 }
 
+.img_location {
+    margin: 0 auto;
+    width: 30%;
+    display: block;
+}
+
+/* //!============================= email box code  */
+
+.email_box {
+    margin: 40px 0;
+    position: relative;
+    background-color: #7DB201;
+    border: 5px solid rgba(0, 0, 0, .9);
+    border-right-width: 8px;
+    border-bottom-width: 8px;
+    width: 100%;
+    padding: 50px 30px;
+    box-shadow: 0 0 5px 1 black;
+    border-radius: 10px 10px 15px 15px;
+}
+
+.logo_laptop {
+    position: absolute;
+    top: -140px;
+    right: 0;
+    z-index: 100;
+
+}
+
+.title_email {
+    text-align: center;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.email_form {
+    position: relative;
+    border: none;
+    width: 50%;
+    margin: 30px auto 0 auto;
+    height: 50px;
+}
+
+.email_input {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    outline: none;
+    text-align: right;
+    border: none;
+    box-shadow: 0 0 5px 1px white;
+    color: #1C1C1A;
+    font-size: 1.6rem;
+}
+
+.btn_email {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: #7DB201;
+    border: none;
+    box-shadow: 0 0 5px 1px #7DB201;
+}
+
+.btn_email:hover {
+    background-color: #5f8800;
+}
+
+.logo_black {
+    color: black;
+}
+
+
+
+
+
 
 @media screen and (max-width: 480px) {
     .title_brand {
         font-size: 0.7rem !important;
     }
+
     .title_brand .logo {
         color: #7DB201;
         font-size: 2rem;
+    }
+
+    .title_email {
+        font-size: .9rem !important;
+    }
+
+    .email_box .logo_black {
+        font-size: 1rem !important;
     }
 }
 
@@ -28,13 +114,28 @@
     .title_brand {
         font-size: 1.3rem !important;
     }
+
     .title_brand .logo {
         font-size: 3rem;
+    }
+
+    .title_email {
+        font-size: 1.4rem !important;
+    }
+    .email_box .logo_black {
+        font-size: 1.5rem !important;
     }
 }
 
 @media screen and (max-width: 992px) {
     .title_brand {
         font-size: 1.7rem;
+    }
+
+    .title_email {
+        font-size: 1.6rem;
+    }
+    .email_box .logo_black {
+        font-size: 2rem !important;
     }
 }
