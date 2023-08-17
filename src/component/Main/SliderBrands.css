@@ -31,15 +31,19 @@
     background-color: #7DB201;
 }
 
+
+
 .swiper-button-next {
     transform: scale(.7);
-    color: #7DB201;
+    /* color: #7DB201; */
     border-radius: 50%;
     width: 45px;
     height: 45px;
     position: absolute;
     top: 100px;
     right: 40px;
+    color: #ffffff;
+    background-color: #7DB201;
 }
 
 .swiper-button-next:hover {
