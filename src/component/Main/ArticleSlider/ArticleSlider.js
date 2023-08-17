@@ -21,7 +21,7 @@ import './ArticleSlider.css'
 export default function ArticleSlider() {
     return (
         <div className='article_part'>
-            <img className='heart_logo' src={headerLogo} alt='header_logo' />
+            <img className='heart_logo' loading='lazy' src={headerLogo} alt='header_logo' />
             <h3 className='title_brand'><AiOutlineLine className='logo logo_black' /><span className='green_text'> مقالات </span> ما<AiOutlineLine className='logo logo_black' /></h3>
             <div className='slider_article'>
                 <Swiper
@@ -34,7 +34,7 @@ export default function ArticleSlider() {
                         <div className='box_article'>
                             <span className='article_btn'> <AiOutlineArrowLeft className='icon_btn' /></span>
                             <div className='article_content'>
-                                <img className='article_header_img' src={img1} alt='img_1' />
+                                <img className='article_header_img' loading='lazy' src={img1} alt='img_1' />
                                 <div className='article_body'>
                                     <h4 className='body_title'>کاربرد افزونه مین وردپرس</h4>
                                     <p>ورم ایپسوم متن
@@ -54,7 +54,7 @@ export default function ArticleSlider() {
                         <div className='box_article'>
                             <span className='article_btn'> <AiOutlineArrowLeft className='icon_btn' /></span>
                             <div className='article_content'>
-                                <img className='article_header' src={img2} alt='img_1' />
+                                <img className='article_header' loading='lazy' src={img2} alt='img_1' />
                                 <div className='article_body'>
                                     <h4 className='body_title'>کاربرد افزونه مین وردپرس</h4>
                                     <p>ورم ایپسوم متن
@@ -74,7 +74,7 @@ export default function ArticleSlider() {
                         <div className='box_article'>
                             <span className='article_btn'> <AiOutlineArrowLeft className='icon_btn' /></span>
                             <div className='article_content'>
-                                <img className='article_header' src={img3} alt='img_1' />
+                                <img className='article_header' loading='lazy' src={img3} alt='img_1' />
                                 <div className='article_body'>
                                     <h4 className='body_title'>کاربرد افزونه مین وردپرس</h4>
                                     <p>ورم ایپسوم متن
@@ -94,7 +94,26 @@ export default function ArticleSlider() {
                         <div className='box_article'>
                             <span className='article_btn'> <AiOutlineArrowLeft className='icon_btn' /></span>
                             <div className='article_content'>
-                                <img className='article_header' src={img1} alt='img_1' />
+                                <img className='article_header' loading='lazy' src={img1} alt='img_1' />
+                                <div className='article_body'>
+                                    <h4 className='body_title'>کاربرد افزونه مین وردپرس</h4>
+                                    <p>ورم ایپسوم متن
+                                        ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
+                                        روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                                        و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+                                </div>
+                                <div className='article_footer'>
+                                    <p><span className='footer_time'>مرداد 15 - 1402</span> <BsClock className='footer_icon' /> </p>
+                                    <p><span className='footer_name'>احمد جوادی</span> <BsFillPersonFill className='footer_icon' /></p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='box_article'>
+                            <span className='article_btn'> <AiOutlineArrowLeft className='icon_btn' /></span>
+                            <div className='article_content'>
+                                <img className='article_header' loading='lazy' src={img3} alt='img_1' />
                                 <div className='article_body'>
                                     <h4 className='body_title'>کاربرد افزونه مین وردپرس</h4>
                                     <p>ورم ایپسوم متن
