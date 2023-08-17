@@ -14,6 +14,7 @@ import headerLogo from './heart_logo.svg'
 import img1 from './article_img.svg'
 import img2 from './article_img1.svg'
 import img3 from './article_img2.svg'
+import './ArticleSlider.css'
 
 
 
@@ -31,9 +32,9 @@ export default function ArticleSlider() {
                     className="mySwiper">
                     <SwiperSlide>
                         <div className='box_article'>
-                            <span className='article_btn'> <AiOutlineArrowLeft /></span>
+                            <span className='article_btn'> <AiOutlineArrowLeft className='icon_btn' /></span>
                             <div className='article_content'>
-                                <img className='article_header' src={img1} alt='img_1' />
+                                <img className='article_header_img' src={img1} alt='img_1' />
                                 <div className='article_body'>
                                     <h4 className='body_title'>کاربرد افزونه مین وردپرس</h4>
                                     <p>ورم ایپسوم متن
@@ -48,9 +49,10 @@ export default function ArticleSlider() {
                             </div>
                         </div>
                     </SwiperSlide>
+
                     <SwiperSlide>
                         <div className='box_article'>
-                            <span className='article_btn'> <AiOutlineArrowLeft /></span>
+                            <span className='article_btn'> <AiOutlineArrowLeft className='icon_btn' /></span>
                             <div className='article_content'>
                                 <img className='article_header' src={img2} alt='img_1' />
                                 <div className='article_body'>
@@ -67,9 +69,10 @@ export default function ArticleSlider() {
                             </div>
                         </div>
                     </SwiperSlide>
+
                     <SwiperSlide>
                         <div className='box_article'>
-                            <span className='article_btn'> <AiOutlineArrowLeft /></span>
+                            <span className='article_btn'> <AiOutlineArrowLeft className='icon_btn' /></span>
                             <div className='article_content'>
                                 <img className='article_header' src={img3} alt='img_1' />
                                 <div className='article_body'>
@@ -86,9 +89,10 @@ export default function ArticleSlider() {
                             </div>
                         </div>
                     </SwiperSlide>
+
                     <SwiperSlide>
                         <div className='box_article'>
-                            <span className='article_btn'> <AiOutlineArrowLeft /></span>
+                            <span className='article_btn'> <AiOutlineArrowLeft className='icon_btn' /></span>
                             <div className='article_content'>
                                 <img className='article_header' src={img1} alt='img_1' />
                                 <div className='article_body'>
