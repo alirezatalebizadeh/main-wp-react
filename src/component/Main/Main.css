@@ -23,7 +23,7 @@
 /* //!============================= email box code  */
 
 .email_box {
-    margin: 40px 0;
+    margin: 200px 0 60px 0;
     position: relative;
     background-color: #7DB201;
     border: 5px solid rgba(0, 0, 0, .9);
@@ -83,7 +83,8 @@
 }
 
 .logo_black {
-    color: black;
+    color: black !important;
+    font-size: 3rem;
 }
 
 

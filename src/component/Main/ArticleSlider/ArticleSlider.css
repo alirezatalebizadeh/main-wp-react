@@ -1,0 +1,41 @@
+.article_part {
+    position: relative;
+    margin: 50px 0;
+    background-color: yellow;
+}
+
+.heart_logo {
+    position: absolute;
+    top: -10px;
+}
+
+
+.slider_article {}
+
+.mySwiper {
+    text-align: center;
+}
+
+.box_article {
+
+}
+
+.article_content {}
+
+.article_btn {}
+
+
+.article_part .title_brand {
+    margin: 40px 0;
+}
+
+.article_content {}
+
+.article_header {}
+
+.article_body p {}
+
+.article_footer .footer_time,
+.article_footer .footer_name {}
+
+.footer_icon {}
