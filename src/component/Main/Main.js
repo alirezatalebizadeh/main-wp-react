@@ -5,12 +5,13 @@ import SliderBrands from './SliderBrands'
 import EmailBox from './EmailBox'
 import srcLogo from './location.svg'
 import ArticleSlider from './ArticleSlider/ArticleSlider'
+import Installtext from './Installtext'
 
 export default function Main() {
     return (
         <div className='main_content'>
 
-
+            <Installtext />
             <ArticleSlider />
             <EmailBox />
             <img src={srcLogo} className='img_location' />

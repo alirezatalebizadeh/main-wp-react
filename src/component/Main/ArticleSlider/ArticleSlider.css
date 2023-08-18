@@ -1,3 +1,7 @@
+.article_part {
+    position: relative;
+}
+
 .article_part .mySwiper {
     position: relative;
 }
@@ -20,7 +24,7 @@
 
 .heart_logo {
     position: absolute;
-    top: -10px;
+    top: -40px;
 }
 
 

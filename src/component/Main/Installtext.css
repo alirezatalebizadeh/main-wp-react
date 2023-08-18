@@ -1,0 +1,42 @@
+.install_part {
+    /* background-color: yellow; */
+    text-align: center;
+    position: relative;
+    margin: 150px 0;
+    color: #fff;
+}
+
+.install_part img {
+    position: absolute;
+    top: -150px;
+    right: 0;
+}
+
+.install_txt {
+    padding: 35px;
+    background-color: #1C1C1A;
+    border: 5px solid #7DB201;
+    border-right-width: 10px;
+    border-bottom-width: 8px;
+    border-radius: 35px 20px;
+}
+
+.install_txt p {
+    margin-top: 20px;
+}
+.install_txt p .logo{
+    margin:0 10px;
+    font-size: 2rem;
+}
+
+.btn_install {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    box-shadow: 0 0 5px 1px #fff;
+    background-color: #7DB201;
+}
+
+.btn_install:hover {
+    background-color: #4c6d01;
+}
