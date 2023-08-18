@@ -2,14 +2,17 @@ import React, { useEffect, useState } from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import required modules
-import { Navigation, Pagination } from 'swiper/modules';
+import { Pagination } from 'swiper/modules';
+import { AiOutlineLine } from 'react-icons/ai'
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 // custom css
 import './PropMainWpSlider.css'
+
+import cupLogo from './cup.svg'
 
 //src of images
 import img1 from './img1.svg'
@@ -38,11 +41,31 @@ export default function PropMainWpSlider() {
 
     return (
         <div className='prop_mainWp'>
+            <h3 className='title_brand'><AiOutlineLine className='logo' /><span className='green_text'> ویژگی های </span>افزونه مین وردپرس<AiOutlineLine className='logo' /></h3>
+            <img src={cupLogo} className='logo_cup' alt='cup' />
             <Swiper
                 rewind={true}
                 slidesPerView={countSlide}
+                pagination={{
+                    clickable: true
+                }}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    768: {
+                        slidesPerView: 4,
+                        spaceBetween: 40
+                    },
+                    1024: {
+                        slidesPerView: 5,
+                        spaceBetween: 50
+                    },
+                }}
                 modules={[Pagination]}
                 className="mySwiper">
+
                 <SwiperSlide className='itemOfProps'>
                     <div className='article_content'>
                         <img className='article_header' loading='lazy' src={img1} alt='img_1' />

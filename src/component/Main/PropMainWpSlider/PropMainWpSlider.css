@@ -1,10 +1,25 @@
+.prop_mainWp {
+    position: relative;
+    margin: 100px 0;
+}
+
+.logo_cup {
+    position: absolute;
+    top: -150px;
+    left: 0;
+}
+
+
+
+
 .prop_mainWp .article_content {
     box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.249);
     border-radius: 25px;
     padding: 10px;
     text-align: center;
 }
-.prop_mainWp .mySwiper{
+
+.prop_mainWp .mySwiper {
     text-align: center;
 }
 
