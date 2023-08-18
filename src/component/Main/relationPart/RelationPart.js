@@ -1,9 +1,12 @@
 import React from 'react'
 import './RelationPart.css'
-import { AiOutlineLine } from 'react-icons/ai'
 import { Button } from 'react-bootstrap'
 
 import youtube from './youtube.svg'
+
+
+
+
 
 export default function RelationPart() {
     return (
@@ -16,6 +19,5 @@ export default function RelationPart() {
                 <Button className='relation_btn'>همین الان نصب کن</Button>
             </div>
         </>
-
     )
 }

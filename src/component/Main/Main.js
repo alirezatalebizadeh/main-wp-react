@@ -9,10 +9,12 @@ import Installtext from './Installtext'
 import PropMainWpSlider from './PropMainWpSlider/PropMainWpSlider'
 import OpinionUser from './OpinionUser/OpinionUser'
 import RelationPart from './relationPart/RelationPart'
+import HowCan from './HowCan/HowCan'
 
 export default function Main() {
     return (
         <div className='main_content'>
+            <HowCan/>
             <RelationPart />
             <OpinionUser />
             <PropMainWpSlider />
