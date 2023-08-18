@@ -1,18 +1,19 @@
 import React, { useEffect, useState } from 'react'
-// Import Swiper React components
+// !Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import required modules
+// !import required modules
 import { Navigation } from 'swiper/modules';
 
-// Import Swiper styles
+// !Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 
 
 import { AiOutlineLine } from 'react-icons/ai'
-import userLogo from './logoUser.svg'
+//!custom css
 import './OpinionUser.css'
-
+//! src img
+import userLogo from './logoUser.svg'
 import personImg from './personImg.svg'
 import rightLogo from './smallLogo.svg'
 import leftLogo from './smallLogoleft.svg'
@@ -22,23 +23,21 @@ import leftLogo from './smallLogoleft.svg'
 
 
 export default function OpinionUser() {
-    const [countSlide, setCountSlide] = useState(3)
+    const [countSlide, setCountSlide] = useState(4)
 
 
 
-    useEffect(() => {
-        let widthOfWin = window.innerWidth
+    // useEffect(() => {
+    //     let widthOfWin = window.innerWidth
 
-        if (widthOfWin < 1200 && widthOfWin > 996) {
-            setCountSlide(3)
-        } else if (widthOfWin < 996 && widthOfWin > 769) {
-            setCountSlide(2)
-        } else if (widthOfWin < 769) {
-            setCountSlide(1)
-        }
-        console.log(countSlide, widthOfWin);
-        //Todo  fix count of slider
-    }, [])
+    //     if (widthOfWin < 1000) {
+    //         setCountSlide(3)
+    //     } else if (widthOfWin < 750) {
+    //         setCountSlide(2)
+    //     } else if (widthOfWin < 500) {
+    //         setCountSlide(1)
+    //     }
+    // }, [])
 
     return (
         <div className='OpinionUsers'>

@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react'
-// Import Swiper React components
+// !Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import required modules
+// !import required modules
 import { Navigation } from 'swiper/modules';
 
-// Import Swiper styles
+// !Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
+
 
 import { BsClock, BsFillPersonFill } from 'react-icons/bs'
 import { AiOutlineLine, AiOutlineArrowLeft } from 'react-icons/ai'
@@ -14,7 +15,7 @@ import headerLogo from './heart_logo.svg'
 import img1 from './article_img.svg'
 import img2 from './article_img1.svg'
 import img3 from './article_img2.svg'
-//custom css
+//!custom css
 import './ArticleSlider.css'
 
 

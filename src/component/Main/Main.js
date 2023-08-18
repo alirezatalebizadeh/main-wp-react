@@ -8,15 +8,17 @@ import ArticleSlider from './ArticleSlider/ArticleSlider'
 import Installtext from './Installtext'
 import PropMainWpSlider from './PropMainWpSlider/PropMainWpSlider'
 import OpinionUser from './OpinionUser/OpinionUser'
+import RelationPart from './relationPart/RelationPart'
 
 export default function Main() {
     return (
         <div className='main_content'>
+            <RelationPart />
             <OpinionUser />
             <PropMainWpSlider />
             <Installtext />
             <ArticleSlider />
-            <EmailBox />
+            <EmailBox/>
             <img src={srcLogo} alt='cupLogo' className='img_location' />
             <h3 className='title_brand'><AiOutlineLine className='logo' /><span className='green_text'>برند هایی </span> که از افزونه مین وردپرس استفاده می کنند<AiOutlineLine className='logo' /></h3>
             <SliderBrands />

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="187.003" height="151.836" viewBox="0 0 187.003 151.836">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.694" y1="0.095" x2="0.211" y2="1.103" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7db201"/>
+      <stop offset="0.383" stop-color="#c4ff3b"/>
+      <stop offset="0.511" stop-color="#fff"/>
+      <stop offset="0.642" stop-color="#7db201"/>
+      <stop offset="1" stop-color="#7db201"/>
+    </linearGradient>
+    <filter id="Rectangle_273" x="0" y="0.309" width="186.704" height="151.528" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.329"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_154" data-name="Group 154" transform="matrix(0.966, 0.259, -0.259, 0.966, 118.973, -1413.356)">
+    <rect id="Rectangle_272" data-name="Rectangle 272" width="153.642" height="103.918" rx="5.888" transform="translate(288.166 1386)" fill="url(#linear-gradient)"/>
+    <g transform="matrix(0.97, -0.26, 0.26, 0.97, 250.88, 1395.99)" filter="url(#Rectangle_273)">
+      <path id="Rectangle_273-2" data-name="Rectangle 273" d="M5.012,0H93.5a5.011,5.011,0,0,1,5.011,5.011V143.247a5.012,5.012,0,0,1-5.012,5.012H5.012A5.012,5.012,0,0,1,0,143.247V5.012A5.012,5.012,0,0,1,5.012,0Z" transform="translate(183.7 41.68) rotate(105)" fill="#7db201"/>
+    </g>
+    <g id="Group_153" data-name="Group 153" transform="translate(351.624 1419.511)">
+      <path id="Path_322" data-name="Path 322" d="M393.084,103.257l-15.977,9.224-15.977,9.224v-36.9l15.977,9.224Z" transform="translate(-361.131 -84.808)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

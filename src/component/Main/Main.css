@@ -25,9 +25,9 @@
 .email_box {
     margin: 200px 0 60px 0;
     position: relative;
-    background-color: #7DB201;
     border: 5px solid rgba(0, 0, 0, .9);
     border-right-width: 8px;
+    background-color: #7DB201;
     border-bottom-width: 8px;
     width: 100%;
     padding: 50px 30px;
@@ -127,6 +127,10 @@
     .email_box .logo_black {
         font-size: 1.5rem !important;
     }
+
+    .relation .relation_title {
+        font-size: 1.1rem !important;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -140,5 +144,9 @@
 
     .email_box .logo_black {
         font-size: 2rem !important;
+    }
+
+    .relation .relation_title {
+        font-size: 1.3rem !important;
     }
 }
