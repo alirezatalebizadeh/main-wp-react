@@ -129,6 +129,7 @@ export default function ArticleSlider() {
                             </div>
                         </div>
                     </SwiperSlide>
+                    
                     <SwiperSlide>
                         <div className='box_article'>
                             <span className='article_btn'> <AiOutlineArrowLeft className='icon_btn' /></span>

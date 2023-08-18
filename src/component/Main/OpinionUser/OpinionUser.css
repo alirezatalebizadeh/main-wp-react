@@ -1,0 +1,79 @@
+.OpinionUsers .top_logo {
+    text-align: right;
+}
+
+.OpinionUsers {
+    margin: 200px 0;
+}
+
+.boxSlider {
+    background-color: #1C1C19;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.box_right {
+    flex: 1;
+    overflow: hidden;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box_right .logo {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.box_right .title {
+    color: #7DB201;
+    font-size: 1.5rem;
+    transform: rotate(-90deg);
+}
+
+.box_left {
+    flex: 5;
+}
+
+.box_left .opinion {
+    font-size: 1rem;
+}
+
+.opinion_content {
+    padding: 10px;
+    margin: 0 5px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.img_user {
+    width: 100px;
+    height: 100px;
+}
+
+.OpinionUsers p {
+    text-align: center;
+}
+
+.rightLogo img,
+.leftLogo img {
+    width: 20px;
+    height: 10px;
+}
+
+
+.rightLogo {
+    /* text-align: right; */
+    display: flex;
+    justify-content: end;
+}
+
+.leftLogo {
+    /* text-align: right; */
+    display: flex;
+    justify-content: start;
+}
