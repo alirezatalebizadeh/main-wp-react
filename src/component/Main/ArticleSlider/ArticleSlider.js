@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import required modules
@@ -19,6 +19,26 @@ import './ArticleSlider.css'
 
 
 export default function ArticleSlider() {
+    const [countSlide, setCountSlide] = useState(3)
+
+    useEffect(() => {
+        let widthOfWin = window.innerWidth
+
+
+        if (widthOfWin < 1200 && widthOfWin > 996) {
+            setCountSlide(3)
+        } else if (widthOfWin < 996 && widthOfWin > 769) {
+            setCountSlide(2)
+        } else if (widthOfWin < 769) {
+            setCountSlide(1)
+        }
+        console.log(countSlide, widthOfWin);
+        //Todo  fix count of slider
+    }, [])
+
+
+
+
     return (
         <div className='article_part'>
             <img className='heart_logo' loading='lazy' src={headerLogo} alt='header_logo' />
@@ -26,7 +46,7 @@ export default function ArticleSlider() {
             <div className='slider_article'>
                 <Swiper
                     rewind={true}
-                    slidesPerView={3}
+                    slidesPerView={countSlide}
                     navigation={true}
                     modules={[Navigation]}
                     className="mySwiper">

@@ -106,3 +106,10 @@
     font-size: 1.8rem;
     margin-left: 5px;
 }
+
+@media screen and (max-width:950px) {
+    .article_body p {
+        font-size: 1.2rem;
+    }
+
+}

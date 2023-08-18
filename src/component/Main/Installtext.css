@@ -24,8 +24,9 @@
 .install_txt p {
     margin-top: 20px;
 }
-.install_txt p .logo{
-    margin:0 10px;
+
+.install_txt p .logo {
+    margin: 0 10px;
     font-size: 2rem;
 }
 
