@@ -1,0 +1,13 @@
+.prop_mainWp .article_content {
+    box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.249);
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.prop_mainWp .mySwiper{
+    text-align: center;
+}
+
+.itemOfProps {
+    margin: 0 5px;
+}

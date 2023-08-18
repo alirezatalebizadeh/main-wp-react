@@ -6,11 +6,13 @@ import EmailBox from './EmailBox'
 import srcLogo from './location.svg'
 import ArticleSlider from './ArticleSlider/ArticleSlider'
 import Installtext from './Installtext'
+import PropMainWpSlider from './PropMainWpSlider/PropMainWpSlider'
 
 export default function Main() {
     return (
         <div className='main_content'>
 
+            <PropMainWpSlider/>
             <Installtext />
             <ArticleSlider />
             <EmailBox />

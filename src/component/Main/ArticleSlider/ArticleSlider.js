@@ -14,6 +14,7 @@ import headerLogo from './heart_logo.svg'
 import img1 from './article_img.svg'
 import img2 from './article_img1.svg'
 import img3 from './article_img2.svg'
+//custom css
 import './ArticleSlider.css'
 
 
@@ -23,7 +24,6 @@ export default function ArticleSlider() {
 
     useEffect(() => {
         let widthOfWin = window.innerWidth
-
 
         if (widthOfWin < 1200 && widthOfWin > 996) {
             setCountSlide(3)
