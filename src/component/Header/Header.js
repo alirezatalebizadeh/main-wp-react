@@ -2,6 +2,7 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import Offcanvas from 'react-bootstrap/Offcanvas';
 import Navbar from 'react-bootstrap/Navbar';
 import './Header.css'
 import { BsArrowDownCircleFill } from "react-icons/bs";
@@ -14,26 +15,39 @@ export default function Header() {
     return (
         <>
             <div className='header'>
-                <Navbar className="bg-body-tertiary">
+                {/* <Navbar className="bg-body-tertiary">
                     <Container>
-                        <Button className='btn_account'>حساب کاربری</Button>
+                       
                         <Navbar.Toggle aria-controls="navbarScroll" />
-                        <Navbar.Collapse id="navbarScroll">
-                            <Nav
-                                className=" my-2 my-lg-0"
-                                style={{ maxHeight: '100px' }}
-                                navbarScroll
-                            >
-                                <Nav.Link href="#action2">تماس با ما</Nav.Link>
-                                <Nav.Link href="#action2">ویژگی های Min Wp</Nav.Link>
-                                <Nav.Link href="#action2">نصب Min Wp</Nav.Link>
-                                <Nav.Link href="#action2">چیست Min Wp</Nav.Link>
-                                <Nav.Link href="#action1">صفحه اصلی </Nav.Link>
-                            </Nav>
+                        <Navbar.Brand href="#"></Navbar.Brand>
+                    </Container>
+                </Navbar> */}
 
-                        </Navbar.Collapse>
-                        <Navbar.Brand href="#"><span className='txt_green'>Main</span> Wp</Navbar.Brand>
-
+                <Navbar expand='md' className="bg-body-tertiary mb-3">
+                    <Container fluid>
+                        <Navbar.Brand href="#"> <Button className='btn_account'>حساب کاربری</Button></Navbar.Brand>
+                        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
+                        <Navbar.Offcanvas
+                            id={`offcanvasNavbar-expand-sm`}
+                            aria-labelledby={`offcanvasNavbarLabel-expand-md`}
+                            placement="end"
+                        >
+                            <Offcanvas.Body>
+                                <Nav className="justify-content-center flex-grow-1 pe-3">
+                                    <Nav.Link href="#action2">تماس با ما</Nav.Link>
+                                    <Nav.Link href="#action2">ویژگی های Min Wp</Nav.Link>
+                                    <Nav.Link href="#action2">نصب Min Wp</Nav.Link>
+                                    <Nav.Link href="#action2">چیست Min Wp</Nav.Link>
+                                    <Nav.Link href="#action1">صفحه اصلی </Nav.Link>
+                                </Nav>
+                                <Navbar.Brand className="justify-content-end flex-grow-1 pe-3" href="#"><span className='txt_green'>Main</span> Wp</Navbar.Brand>
+                            </Offcanvas.Body>
+                            <Offcanvas.Header closeButton>
+                                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
+                                    بستن صفحه
+                                </Offcanvas.Title>
+                            </Offcanvas.Header>
+                        </Navbar.Offcanvas>
                     </Container>
                 </Navbar>
 
