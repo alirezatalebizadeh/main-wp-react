@@ -19,24 +19,29 @@ export default function HowCan() {
 
 
     useEffect(() => {
-        console.log(myVideo.current)
-    }, [isPlaying])
+        // pauseVideo()
+    }, [showPlayIcon])
 
 
     const showVideo = () => {
-        // if (!isPlaying) {
-        //     setShowPlayIcon(false)
-        //     setIsPlaying(true)
-        //     myVideo.current.play()
-        // } else {
-        //     setShowPlayIcon(true)
-        //     setIsPlaying(false)
-        //     myVideo.current.pause()
-        // }
-        myVideo.current.play()
-
+        if (!isPlaying) {
+            setShowPlayIcon(false)
+            setIsPlaying(true)
+            myVideo.current.play()
+            console.log('play');
+        }
         // TODO 
     }
+
+    const pauseVideo = () => {
+        if (myVideo.current.play()) {
+            setShowPlayIcon(true)
+            setIsPlaying(false)
+            myVideo.current.pause()
+        }
+    }
+
+
     return (
         <div className='howCan'>
             <h3 className='title_brand'><AiOutlineLine className='logo' />چگونه افزونه <span className='green_text'> مین وردپرس </span> را نصب کنم<AiOutlineLine className='logo' /></h3>
@@ -49,6 +54,8 @@ export default function HowCan() {
                         <li><BsFillCircleFill className='logo_circle' />3.تمامی سایت های  موردنظر را به <span className='txt_green'>داشبورد مین وردپرس </span>    خود متصل کنید</li>
                     </ul>
                 </div>
+
+
                 <div className='howCan_left'>
                     {showPlayIcon ? <BsFillPlayCircleFill onClick={showVideo} className='play_vid' /> : ''}
                     <video controls ref={myVideo}>
