@@ -35,13 +35,11 @@ export default function HowCan() {
         // }
         myVideo.current.play()
 
-        //Fixed it
+        // TODO 
     }
     return (
         <div className='howCan'>
             <h3 className='title_brand'><AiOutlineLine className='logo' />چگونه افزونه <span className='green_text'> مین وردپرس </span> را نصب کنم<AiOutlineLine className='logo' /></h3>
-<<<<<<< HEAD
-=======
 
             <div className='howCan_bottom'>
                 <div className='howCan_right'>
@@ -58,9 +56,6 @@ export default function HowCan() {
                     </video>
                 </div>
             </div>
-
-
->>>>>>> fe14b9d212753bda345aa9ab55c5d2b0f559348e
         </div>
     )
 }

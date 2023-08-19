@@ -1,56 +1,59 @@
-.howCan {
-}
+.howCan {}
 
 .howCan_bottom {
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 20px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px 0;
 }
 
 .howCan_right {
-  /* background-color: rgb(141, 141, 172); */
-  width: 50%;
-  direction: rtl;
-  display: flex;
-  align-items: center;
+    /* background-color: rgb(141, 141, 172); */
+    width: 50%;
+    direction: rtl;
+    display: flex;
+    align-items: center;
 }
 
 .howCan_left {
-  /* background-color: rgb(137, 92, 92); */
-  width: 50%;
-  position: relative;
+    /* background-color: rgb(137, 92, 92); */
+    width: 50%;
+    position: relative;
 }
+
 .howCan_left video {
-  width: 100%;
-  max-height: 300px;
-  border: 3px solid rgb(29, 28, 28);
-  border-bottom-width: 6px;
-  border-left-width: 6px;
-  border-radius: 30px;
+    width: 100%;
+    max-height: 300px;
+    border: 3px solid rgb(29, 28, 28);
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+    border-radius: 30px;
 }
+
 ul {
-  /* background-color: yellow; */
+    /* background-color: yellow; */
 }
+
 ul li {
-  line-height: 50px;
-  list-style-type: none;
-  display: flex;
-  align-items: center;
+    line-height: 50px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
 }
 
 .txt_green {
-  color: #7db201;
+    color: #7db201;
 }
 
 .logo_circle {
-  color: #7db201;
-  font-size: 1rem;
-  margin-left: 5px;
+    color: #7db201;
+    font-size: 1rem;
+    margin-left: 5px;
 }
+
 .play_vid {
-  color: #7db201;
-  position: absolute;
-  top: 40%;
-  left: 45%;
-  font-size: 3.5rem;
+    color: #7db201;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 3.5rem;
 }
