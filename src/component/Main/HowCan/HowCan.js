@@ -19,23 +19,26 @@ export default function HowCan() {
 
 
     useEffect(() => {
-        console.log(myVideo.current)
-    }, [isPlaying])
+        // pauseVideo()
+    }, [showPlayIcon])
 
 
     const showVideo = () => {
-        // if (!isPlaying) {
-        //     setShowPlayIcon(false)
-        //     setIsPlaying(true)
-        //     myVideo.current.play()
-        // } else {
-        //     setShowPlayIcon(true)
-        //     setIsPlaying(false)
-        //     myVideo.current.pause()
-        // }
-        myVideo.current.play()
-
+        if (!isPlaying) {
+            setShowPlayIcon(false)
+            setIsPlaying(true)
+            myVideo.current.play()
+            console.log('play');
+        }
         // TODO 
+    }
+
+    const pauseVideo = () => {
+        if (myVideo.current.play()) {
+            setShowPlayIcon(true)
+            setIsPlaying(false)
+            myVideo.current.pause()
+        }
     }
 
 
@@ -52,7 +55,7 @@ export default function HowCan() {
                     </ul>
                 </div>
 
-                
+
                 <div className='howCan_left'>
                     {showPlayIcon ? <BsFillPlayCircleFill onClick={showVideo} className='play_vid' /> : ''}
                     <video controls ref={myVideo}>
