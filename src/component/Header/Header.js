@@ -14,7 +14,7 @@ export default function Header() {
     return (
         <>
             <div className='header'>
-                <Navbar expand="lg" className="bg-body-tertiary">
+                <Navbar className="bg-body-tertiary">
                     <Container>
                         <Button className='btn_account'>حساب کاربری</Button>
                         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -24,15 +24,15 @@ export default function Header() {
                                 style={{ maxHeight: '100px' }}
                                 navbarScroll
                             >
-                                <Nav.Link href="#action1">صفحه اصلی </Nav.Link>
-                                <Nav.Link href="#action2">چیست Min Wp</Nav.Link>
-                                <Nav.Link href="#action2">نصب Min Wp</Nav.Link>
-                                <Nav.Link href="#action2">ویژگی های Min Wp</Nav.Link>
                                 <Nav.Link href="#action2">تماس با ما</Nav.Link>
+                                <Nav.Link href="#action2">ویژگی های Min Wp</Nav.Link>
+                                <Nav.Link href="#action2">نصب Min Wp</Nav.Link>
+                                <Nav.Link href="#action2">چیست Min Wp</Nav.Link>
+                                <Nav.Link href="#action1">صفحه اصلی </Nav.Link>
                             </Nav>
 
                         </Navbar.Collapse>
-                        <Navbar.Brand href="#">Main Wp</Navbar.Brand>
+                        <Navbar.Brand href="#"><span className='txt_green'>Main</span> Wp</Navbar.Brand>
 
                     </Container>
                 </Navbar>
@@ -50,6 +50,7 @@ export default function Header() {
                             <Button className='btn_form'>جستجو کن</Button>
                         </form>
                     </div>
+
                 </div>
             </div>
             <div className='clip_Path'></div>
