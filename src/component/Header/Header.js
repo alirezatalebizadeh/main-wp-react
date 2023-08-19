@@ -34,6 +34,7 @@ export default function Header() {
                 </Container>
             </Navbar>
 
+
             <div className='header_bottom'>
                 <div className='left_header'>
                     <BiAdjust className='logo_left' />
