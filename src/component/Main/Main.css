@@ -1,153 +1,159 @@
 .main_content {
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 150px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 150px;
 }
 
 .title_brand {
-    text-align: center;
-    font-size: 1.9rem;
-    color: #1C1C1A;
+  text-align: center;
+  font-size: 1.9rem;
+  color: #1c1c1a;
 }
 
 .title_brand .logo {
-    color: #7DB201;
-    font-size: 4rem;
+  color: #7db201;
+  font-size: 4rem;
 }
 
 .img_location {
-    margin: 0 auto;
-    width: 30%;
-    display: block;
+  margin: 0 auto;
+  width: 30%;
+  display: block;
 }
 
 /* //!============================= email box code  */
 
 .email_box {
-    margin: 200px 0 60px 0;
-    position: relative;
-    border: 5px solid rgba(0, 0, 0, .9);
-    border-right-width: 8px;
-    background-color: #7DB201;
-    border-bottom-width: 8px;
-    width: 100%;
-    padding: 50px 30px;
-    box-shadow: 0 0 5px 1 black;
-    border-radius: 10px 10px 15px 15px;
+  margin: 200px 0 60px 0;
+  position: relative;
+  border: 5px solid rgba(0, 0, 0, 0.9);
+  border-right-width: 8px;
+  background-color: #7db201;
+  border-bottom-width: 8px;
+  width: 100%;
+  padding: 50px 30px;
+  box-shadow: 0 0 5px 1 black;
+  border-radius: 10px 10px 15px 15px;
 }
 
 .logo_laptop {
-    position: absolute;
-    top: -140px;
-    right: 0;
-    z-index: 100;
-
+  position: absolute;
+  top: -140px;
+  right: 0;
+  z-index: 100;
+  width: 200px;
 }
 
 .title_email {
-    text-align: center;
-    color: #fff;
-    font-size: 1.8rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1.8rem;
 }
 
 .email_form {
-    position: relative;
-    border: none;
-    width: 50%;
-    margin: 30px auto 0 auto;
-    height: 50px;
+  position: relative;
+  border: none;
+  width: 50%;
+  margin: 30px auto 0 auto;
+  height: 50px;
 }
 
 .email_input {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    outline: none;
-    text-align: right;
-    border: none;
-    box-shadow: 0 0 5px 1px white;
-    color: #1C1C1A;
-    font-size: 1.6rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  outline: none;
+  text-align: right;
+  border: none;
+  box-shadow: 0 0 5px 1px white;
+  color: #1c1c1a;
+  font-size: 1.6rem;
 }
 
 .btn_email {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    background-color: #7DB201;
-    border: none;
-    box-shadow: 0 0 5px 1px #7DB201;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background-color: #7db201;
+  border: none;
+  box-shadow: 0 0 5px 1px #7db201;
 }
 
 .btn_email:hover {
-    background-color: #5f8800;
+  background-color: #5f8800;
 }
 
 .logo_black {
-    color: black !important;
-    font-size: 3rem;
+  color: black !important;
+  font-size: 3rem;
 }
 
+@media screen and (max-width: 500px) {
+  .title_brand {
+    font-size: 0.7rem !important;
+  }
 
+  .title_brand .logo {
+    color: #7db201;
+    font-size: 2rem;
+  }
 
+  .title_email {
+    font-size: 0.9rem !important;
+  }
 
-
-
-@media screen and (max-width: 480px) {
-    .title_brand {
-        font-size: 0.7rem !important;
-    }
-
-    .title_brand .logo {
-        color: #7DB201;
-        font-size: 2rem;
-    }
-
-    .title_email {
-        font-size: .9rem !important;
-    }
-
-    .email_box .logo_black {
-        font-size: 1rem !important;
-    }
+  .email_box .logo_black {
+    font-size: 1rem !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .title_brand {
-        font-size: 1.3rem !important;
-    }
+  .title_brand {
+    font-size: 1.2rem !important;
+  }
 
-    .title_brand .logo {
-        font-size: 3rem;
-    }
+  .title_brand .logo {
+    font-size: 2.5rem;
+  }
 
-    .title_email {
-        font-size: 1.4rem !important;
-    }
+  .title_email {
+    font-size: 1.2rem !important;
+  }
 
-    .email_box .logo_black {
-        font-size: 1.5rem !important;
-    }
+  .email_box .logo_black {
+    font-size: 1.3rem !important;
+  }
 
-    .relation .relation_title {
-        font-size: 1.1rem !important;
-    }
+  .relation .relation_title {
+    font-size: 1.1rem !important;
+  }
+  .logo_laptop {
+    top: -120px;
+    width: 200px;
+  }
+  .logo_cup {
+    top: -50px;
+    width: 120px !important;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .title_brand {
-        font-size: 1.7rem;
-    }
+  .title_brand {
+    font-size: 1.7rem;
+  }
 
-    .title_email {
-        font-size: 1.6rem;
-    }
+  .title_email {
+    font-size: 1.6rem;
+  }
 
-    .email_box .logo_black {
-        font-size: 2rem !important;
-    }
+  .email_box .logo_black {
+    font-size: 2rem !important;
+  }
 
-    .relation .relation_title {
-        font-size: 1.3rem !important;
-    }
+  .relation .relation_title {
+    font-size: 1.3rem !important;
+  }
+  .article_content p {
+    /* font-size: 0.9rem !important; */
+  }
 }

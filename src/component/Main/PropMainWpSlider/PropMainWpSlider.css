@@ -1,28 +1,32 @@
 .prop_mainWp {
-    position: relative;
-    margin: 100px 0;
+  position: relative;
+  margin: 150px 0;
 }
-
+.prop_mainWp .body_title {
+  font-size: 1.2rem;
+}
+.prop_mainWp p {
+  font-size: 1.1rem;
+}
 .logo_cup {
-    position: absolute;
-    top: -150px;
-    left: 0;
-}
-
-
-
-
-.prop_mainWp .article_content {
-    box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.249);
-    border-radius: 25px;
-    padding: 10px;
-    text-align: center;
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 150px;
 }
 
 .prop_mainWp .mySwiper {
-    text-align: center;
+  text-align: center;
+}
+
+.prop_mainWp .mySwiper .swiper-slide {
+  min-height: 500px;
+  /* margin: 0 5px; */
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.249);
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
 }
 
 .itemOfProps {
-    margin: 0 5px;
 }

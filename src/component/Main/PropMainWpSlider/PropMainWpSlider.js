@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 
 // custom css
 import './PropMainWpSlider.css'
-
+import PropItem from './PropItem';
 
 //src of images
 import cupLogo from './cup.svg'
@@ -24,7 +24,6 @@ import img4 from './img4.svg'
 
 
 export default function PropMainWpSlider() {
-
 
     const [countSlide, setCountSlide] = useState(4)
 
@@ -41,90 +40,36 @@ export default function PropMainWpSlider() {
 
 
     return (
-        <div className='prop_mainWp'>
-            <h3 className='title_brand'><AiOutlineLine className='logo' /><span className='green_text'> ویژگی های </span>افزونه مین وردپرس<AiOutlineLine className='logo' /></h3>
-            <img src={cupLogo} className='logo_cup' alt='cup' />
-            <Swiper
-                rewind={true}
-                slidesPerView={countSlide}
+        <>
+            <div className='prop_mainWp'>
+                <h3 className='title_brand'><AiOutlineLine className='logo' /><span className='green_text'> ویژگی های </span>افزونه مین وردپرس<AiOutlineLine className='logo' /></h3>
+                <img src={cupLogo} className='logo_cup' alt='cup' />
+                <Swiper
+                    // pagination={true}
+                    slidesPerView={countSlide}
+                    modules={[Pagination]}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    spaceBetween={10}
+                    className="mySwiper"
+                >
+                    <SwiperSlide > <PropItem title='دسترسی آسان به میدیرت سایت ' img={img1} /></SwiperSlide>
 
-                modules={[Pagination]}
-                className="mySwiper">
+                    <SwiperSlide><PropItem title='امنیت بسیار بالا' img={img2} /></SwiperSlide>
 
-                <SwiperSlide className='itemOfProps'>
-                    <div className='article_content'>
-                        <img className='article_header' loading='lazy' src={img1} alt='img_1' />
-                        <div className='article_body'>
-                            <h4 className='body_title'> دسترسی آسان به میدیرت سایت</h4>
-                            <p>لورم ایپسوم متن ساختگی با تولید
-                                سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
-                                استلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
-                                از صنعت چاپ و با استفاده از طراحان گرافیک استلورم
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
-                                چاپ و با استفاده از طراحان گرافیک است</p>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='itemOfProps'>
-                    <div className='article_content'>
-                        <img className='article_header' loading='lazy' src={img2} alt='img_1' />
-                        <div className='article_body'>
-                            <h4 className='body_title'>امنیت بسیار بالا</h4>
-                            <p>لورم ایپسوم متن ساختگی با تولید
-                                سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
-                                استلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
-                                از صنعت چاپ و با استفاده از طراحان گرافیک استلورم
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
-                                چاپ و با استفاده از طراحان گرافیک است</p>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='itemOfProps'>
-                    <div className='article_content'>
-                        <img className='article_header' loading='lazy' src={img3} alt='img_1' />
-                        <div className='article_body'>
-                            <h4 className='body_title'>بروزرسانی های مکرر </h4>
-                            <p>لورم ایپسوم متن ساختگی با تولید
-                                سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
-                                استلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
-                                از صنعت چاپ و با استفاده از طراحان گرافیک استلورم
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
-                                چاپ و با استفاده از طراحان گرافیک است</p>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='itemOfProps'>
-                    <div className='article_content'>
-                        <img className='article_header' loading='lazy' src={img4} alt='img_1' />
-                        <div className='article_body'>
-                            <h4 className='body_title'> مدیریت تمامی اطلاعات با یک
-                                پیشخوان</h4>
-                            <p>لورم ایپسوم متن ساختگی با تولید
-                                سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
-                                استلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
-                                از صنعت چاپ و با استفاده از طراحان گرافیک استلورم
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
-                                چاپ و با استفاده از طراحان گرافیک است</p>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='itemOfProps'>
-                    <div className='article_content'>
-                        <img className='article_header' loading='lazy' src={img4} alt='img_1' />
-                        <div className='article_body'>
-                            <h4 className='body_title'> مدیریت تمامی اطلاعات با یک
-                                پیشخوان</h4>
-                            <p>لورم ایپسوم متن ساختگی با تولید
-                                سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
-                                استلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
-                                از صنعت چاپ و با استفاده از طراحان گرافیک استلورم
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
-                                چاپ و با استفاده از طراحان گرافیک است</p>
-                        </div>
-                    </div>
-                </SwiperSlide>
+                    <SwiperSlide ><PropItem title='بروزرسانی های مکرر ' img={img3} /></SwiperSlide>
 
-            </Swiper>
-        </div>
+                    <SwiperSlide ><PropItem title='مدیریت تمامی اطلاعات با یک پیشخوان ' img={img4} /></SwiperSlide>
+                    <SwiperSlide ><PropItem title='امنیت بسیار بالا' img={img2} /></SwiperSlide>
+                    <SwiperSlide > <PropItem title='دسترسی آسان به میدیرت سایت ' img={img1} /></SwiperSlide>
+
+                    <SwiperSlide><PropItem title='امنیت بسیار بالا' img={img2} /></SwiperSlide>
+
+                    <SwiperSlide ><PropItem title='بروزرسانی های مکرر ' img={img3} /></SwiperSlide>
+
+                </Swiper>
+            </div>
+        </>
     )
 }

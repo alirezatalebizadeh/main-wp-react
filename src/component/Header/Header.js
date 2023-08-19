@@ -5,7 +5,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Header.css'
 import { BiAdjust } from "react-icons/bi";
-import { AiOutlineArrowDown } from "react-icons/ai";
 import './Header.css'
 
 

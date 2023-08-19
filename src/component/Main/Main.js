@@ -14,13 +14,13 @@ import HowCan from './HowCan/HowCan'
 export default function Main() {
     return (
         <div className='main_content'>
-            <HowCan/>
+            <HowCan />
             <RelationPart />
             <OpinionUser />
             <PropMainWpSlider />
             <Installtext />
             <ArticleSlider />
-            <EmailBox/>
+            <EmailBox />
             <img src={srcLogo} alt='cupLogo' className='img_location' />
             <h3 className='title_brand'><AiOutlineLine className='logo' /><span className='green_text'>برند هایی </span> که از افزونه مین وردپرس استفاده می کنند<AiOutlineLine className='logo' /></h3>
             <SliderBrands />

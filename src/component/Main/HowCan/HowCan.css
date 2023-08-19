@@ -33,7 +33,7 @@ ul {
     /* background-color: yellow; */
 }
 
-ul li {
+.howCan ul li {
     line-height: 50px;
     list-style-type: none;
     display: flex;
