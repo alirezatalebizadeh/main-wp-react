@@ -47,6 +47,7 @@ export default function Header() {
                     </form>
                 </div>
             </div>
+            <div className='clip_Path'></div>
         </div>
     )
 }
