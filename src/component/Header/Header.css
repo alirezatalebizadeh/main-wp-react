@@ -28,6 +28,10 @@
   position: relative;
 }
 
+.navbar-toggler {
+  background-color: #fff !important;
+}
+
 .parent_icon {
   position: relative;
 }
