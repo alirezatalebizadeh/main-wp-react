@@ -40,10 +40,6 @@
   height: auto;
 }
 
-.logo_left {
-  font-size: 5rem;
-  color: white;
-}
 
 .right_header {
   flex-basis: 50%;
@@ -83,4 +79,7 @@
   left: 0px;
   top: 0px;
   margin: 7px;
+}
+.link{
+    color: #fff;
 }
