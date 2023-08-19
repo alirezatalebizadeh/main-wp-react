@@ -37,6 +37,8 @@ export default function HowCan() {
 
         // TODO 
     }
+
+    
     return (
         <div className='howCan'>
             <h3 className='title_brand'><AiOutlineLine className='logo' />چگونه افزونه <span className='green_text'> مین وردپرس </span> را نصب کنم<AiOutlineLine className='logo' /></h3>
