@@ -3,12 +3,11 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-//! custom css
 import './Header.css'
-import logo from './logo_left.svg'
 import { BiAdjust } from "react-icons/bi";
-import { AiOutlineArrowDown } from "react-icons/ai";
 import './Header.css'
+
+
 export default function Header() {
     return (
         <div className='header'>
@@ -37,7 +36,7 @@ export default function Header() {
 
             <div className='header_bottom'>
                 <div className='left_header'>
-                    <img src={logo} alt='ski'/>
+                    <BiAdjust className='logo_left' />
                 </div>
                 <div className='right_header'>
                     <h2>چندین سایت رو همزمان کنترل کن</h2>
@@ -49,7 +48,7 @@ export default function Header() {
                     </form>
                 </div>
             </div>
-            <div className='clip_Path'></div>
+
         </div>
     )
 }
