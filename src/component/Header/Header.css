@@ -155,3 +155,22 @@
     font-size: 1.3rem !important;
   }
 }
+
+@media screen and (max-width:1000px) {
+  .navbar .nav-link {
+    margin: 0 5px;
+  }
+
+
+}
+
+@media screen and (max-width:1000px) {
+  .navbar .nav-link {
+    margin: 0 3px !important;
+  }
+
+  .btn_account {
+    margin-right: 30px;
+  }
+
+}
