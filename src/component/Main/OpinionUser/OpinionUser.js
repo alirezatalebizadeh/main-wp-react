@@ -107,6 +107,7 @@ export default function OpinionUser() {
     )
 }
 
+<<<<<<< HEAD
 {/* <div className='box_left'>
     <Swiper
         rewind={true}
@@ -161,3 +162,5 @@ export default function OpinionUser() {
 
     </Swiper>
 </div>  */}
+=======
+>>>>>>> fe14b9d212753bda345aa9ab55c5d2b0f559348e
