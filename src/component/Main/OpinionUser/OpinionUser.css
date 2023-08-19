@@ -1,88 +1,86 @@
 .OpinionUsers .top_logo {
-    text-align: right;
+  text-align: right;
 }
 
 .OpinionUsers {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .OpinionUsers .mySwiper {
-    background-color: yellow;
-   /* margin:0 30px; */
-
+  /* background-color: yellow; */
+  color: #fff;
+  overflow: hidden;
+  padding: 10px 0;
 }
 
-
-
 .boxSlider {
-    background-color: #1C1C19;
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 10px;
-    border-radius: 20px;
+  background-color: #1c1c19;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  border-radius: 20px;
+  min-height: 450px;
 }
 
 .box_right {
-    flex: 1;
-    min-width: 100px;
-    overflow: hidden;
-    /* background-color: yellow; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  flex: 1;
+  min-width: 100px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .box_right .logo {
-    color: #fff;
-    font-size: 2rem;
+  color: #fff;
+  font-size: 2rem;
 }
 
 .box_right .title {
-    color: #7DB201;
-    font-size: 1.5rem;
-    transform: rotate(-90deg);
+  color: #7db201;
+  font-size: 1.2rem;
+  transform: rotate(-90deg);
 }
 
 .box_left {
-    flex: 5;
+  flex: 10;
 }
 
 .box_left .opinion {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .opinion_content {
-    padding: 10px;
-    margin: 0 5px;
-    background-color: white;
-    border-radius: 25px;
+  padding: 10px;
+  margin: 0 5px;
+  background-color: white;
+  border-radius: 25px;
 }
 
 .img_user {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .OpinionUsers p {
-    text-align: center;
+  text-align: center;
 }
 
 .rightLogo img,
 .leftLogo img {
-    width: 20px;
-    height: 10px;
+  width: 20px;
+  height: 10px;
 }
 
-
 .rightLogo {
-    /* text-align: right; */
-    display: flex;
-    justify-content: end;
+  /* text-align: right; */
+  display: flex;
+  justify-content: end;
 }
 
 .leftLogo {
-    /* text-align: right; */
-    display: flex;
-    justify-content: start;
+  /* text-align: right; */
+  display: flex;
+  justify-content: start;
 }

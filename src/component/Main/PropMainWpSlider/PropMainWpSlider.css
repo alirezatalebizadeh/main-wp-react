@@ -5,8 +5,8 @@
 .prop_mainWp .body_title {
   font-size: 1.2rem;
 }
-.prop_header{
-    width: 100%;
+.prop_header {
+  width: 100%;
 }
 .prop_mainWp p {
   font-size: 1.1rem;
@@ -23,7 +23,6 @@
 }
 
 .prop_mainWp .mySwiper .swiper-slide {
-  /* margin: 0 5px; */
   box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.249);
   border-radius: 25px;
   padding: 10px;
