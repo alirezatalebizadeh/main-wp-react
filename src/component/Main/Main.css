@@ -135,6 +135,24 @@
     top: -50px;
     width: 120px !important;
   }
+  .prop_mainWp p {
+    font-size: 0.8rem !important;
+  }
+  .relation_title {
+    font-size: 0.7rem !important;
+    font-weight: 400;
+  }
+  .howCan ul li {
+    margin-top: 10px;
+  }
+  .howCan_bottom {
+    flex-direction: column !important;
+  }
+  .howCan_right,
+  .howCan_left {
+    width: 100% !important;
+    margin: 10px 0;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -155,5 +173,8 @@
   }
   .article_content p {
     /* font-size: 0.9rem !important; */
+  }
+  .prop_mainWp p {
+    font-size: 1rem !important;
   }
 }

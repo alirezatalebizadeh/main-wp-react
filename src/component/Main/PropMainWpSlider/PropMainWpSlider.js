@@ -27,16 +27,19 @@ export default function PropMainWpSlider() {
 
     const [countSlide, setCountSlide] = useState(4)
 
+
     useEffect(() => {
         let widthOfWin = window.innerWidth
 
-        if (widthOfWin < 996 && widthOfWin > 769) {
+        if (widthOfWin < 1000) {
             setCountSlide(3)
-        } else if (widthOfWin < 590) {
+        } else if (widthOfWin < 777) {
             setCountSlide(2)
+        } else if (widthOfWin < 550) {
+            setCountSlide(1)
         }
-    }, [])
-
+        //TODO
+    })
 
 
     return (
@@ -45,7 +48,6 @@ export default function PropMainWpSlider() {
                 <h3 className='title_brand'><AiOutlineLine className='logo' /><span className='green_text'> ویژگی های </span>افزونه مین وردپرس<AiOutlineLine className='logo' /></h3>
                 <img src={cupLogo} className='logo_cup' alt='cup' />
                 <Swiper
-                    // pagination={true}
                     slidesPerView={countSlide}
                     modules={[Pagination]}
                     pagination={{
