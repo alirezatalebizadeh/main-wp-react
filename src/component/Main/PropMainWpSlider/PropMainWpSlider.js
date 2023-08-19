@@ -7,14 +7,15 @@ import { AiOutlineLine } from 'react-icons/ai'
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // custom css
 import './PropMainWpSlider.css'
 
-import cupLogo from './cup.svg'
 
 //src of images
+import cupLogo from './cup.svg'
 import img1 from './img1.svg'
 import img2 from './img2.svg'
 import img3 from './img3.svg'
@@ -45,8 +46,8 @@ export default function PropMainWpSlider() {
             <img src={cupLogo} className='logo_cup' alt='cup' />
             <Swiper
                 rewind={true}
-                slidesPerView={4}
-                
+                slidesPerView={countSlide}
+
                 modules={[Pagination]}
                 className="mySwiper">
 
