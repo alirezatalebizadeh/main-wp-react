@@ -9,12 +9,13 @@
   position: relative;
 }
 
+
 .clip_Path {
   width: 100%;
   height: 200px;
   background-color: #1c1c1a;
   clip-path: ellipse(50% 49% at 50% 50%);
-  
+
   margin-top: 30px;
   position: relative;
   z-index: -200;
@@ -39,7 +40,6 @@
   width: 70%;
   height: auto;
 }
-
 
 .right_header {
   flex-basis: 50%;
@@ -79,7 +79,8 @@
   left: 0px;
   top: 0px;
   margin: 7px;
+  background-color: green;
 }
-.link{
-    color: #fff;
+.link {
+  color: #fff;
 }
