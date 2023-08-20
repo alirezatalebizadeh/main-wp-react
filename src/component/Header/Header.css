@@ -1,5 +1,14 @@
 .btn_account {
   margin-right: 100px;
+  background-color: #7db201;
+  border: none;
+  box-shadow: 0 0 3px 0px #7db201;
+}
+
+.btn_account:hover,
+.btn_header:hover,
+.btn_form:hover {
+  background-color: #507006;
 }
 
 .header {
@@ -9,23 +18,64 @@
   position: relative;
 }
 
-
 .clip_Path {
-  width: 100%;
-  height: 200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: -75px;
+  height: 150px;
   background-color: #1c1c1a;
   clip-path: ellipse(50% 49% at 50% 50%);
-
   margin-top: 30px;
+}
+
+.navbar-toggler {
+  background-color: #fff !important;
+}
+
+.parent_icon {
   position: relative;
-  z-index: -200;
-  margin-bottom: 100px;
+}
+
+.arrow_bottom_icon {
+  position: absolute;
+  color: #7db201;
+  left: 50%;
+  bottom: -30px;
+  z-index: 100;
+  font-size: 4rem;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 3px solid #fff;
+}
+
+.navbar {
+  background-color: #1c1c1a !important;
+}
+
+.navbar .nav-link {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0 10px;
+  border-bottom: 3px solid #1c1c1a;
+}
+
+.navbar .nav-link:hover {
+  border-bottom: 3px solid #7db201;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: 650;
+  font-size: 1.8rem;
+}
+
+.navbar-brand:hover {
+  color: #fff;
 }
 
 .header_bottom {
   display: flex;
-  width: 100%;
-  overflow: hidden;
+  padding: 20px 0;
   position: relative;
 }
 
@@ -37,7 +87,7 @@
 }
 
 .left_header img {
-  width: 70%;
+  width: 60%;
   height: auto;
 }
 
@@ -53,8 +103,11 @@
 }
 
 .btn_header {
+  border: none;
+  box-shadow: 0 0 3px 0px #fff;
   max-width: 200px;
   align-self: end;
+  background-color: #7db201;
 }
 
 .form_search {
@@ -78,9 +131,49 @@
   position: absolute;
   left: 0px;
   top: 0px;
+  background-color: #7db201;
+  border: none;
   margin: 7px;
+
   background-color: green;
 }
 .link {
   color: #fff;
+}
+
+.link {
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .left_header img {
+    width: 90%;
+    height: auto;
+  }
+
+  .header_bottom {
+    flex-direction: column-reverse !important;
+  }
+
+  .navbar-brand {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.3rem !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar .nav-link {
+    margin: 0 5px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar .nav-link {
+    margin: 0 3px !important;
+  }
+
+  .btn_account {
+    margin-right: 30px;
+  }
 }
