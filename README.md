@@ -1,8 +1,12 @@
 # Getting Started with Create React App
 
 ### first type npm i to install react-bootstrap and bootstrap and react-icons
-### and install bootstrap![main](https://github.com/alirezatalebizadeh/https---github.com-alirezatalebizadeh-main_wp/assets/104105725/f2ba9839-fd1e-4177-86cb-52eed89089a3)
+### and install bootstrap
 
-![header and main](https://github.com/alirezatalebizadeh/https---github.com-alirezatalebizadeh-main_wp/assets/104105725/7e3fbb9c-41a3-4f85-8d37-c11ca5b4c1cd)
+![header and main](https://github.com/alirezatalebizadeh/main-wp-react/assets/104105725/62863c86-34a5-4102-9819-53cf9cbc6fbc)
+![footer](https://github.com/alirezatalebizadeh/main-wp-react/assets/104105725/2fb9a844-1fa2-4674-80d9-9d15227964cc)
 
-![footer](https://github.com/alirezatalebizadeh/https---github.com-alirezatalebizadeh-main_wp/assets/104105725/bf3ad8e3-3b29-45b0-af94-820620e0bbd3)
+![main](https://github.com/alirezatalebizadeh/main-wp-react/assets/104105725/37a0cace-53a4-474c-a358-42bc28976bdf)
+
+
+
