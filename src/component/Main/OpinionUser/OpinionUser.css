@@ -1,59 +1,90 @@
-.OpinionUsers .top_logo {
-  text-align: right;
-}
-
 .OpinionUsers {
   margin: 10px 0;
 }
 
-.OpinionUsers .mySwiper {
-  /* background-color: yellow; */
-  color: #fff;
-  overflow: hidden;
-  padding: 10px 0;
+.OpinionUsers .top_logo {
+  text-align: right;
 }
+
+.OpinionUsers .body_title {
+  font-size: 1.1rem !important;
+}
+
+
 
 .boxSlider {
   background-color: #1c1c19;
-  display: flex;
-  flex-direction: row-reverse;
   padding: 10px;
   border-radius: 20px;
-  min-height: 450px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
 }
 
+
+
 .box_right {
-  flex: 1;
-  min-width: 100px;
-  overflow: hidden;
+  grid-column: 6/7;
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  grid-row: 1/2;
+
 }
+
+
 
 .box_right .logo {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
+
+}
+
+.OpinionUsers .mySwiper {
+  flex-basis: calc(100% - 100px);
+  color: #fff;
+  overflow: hidden;
+  padding: 10px 0;
+  position: relative;
+}
+
+.OpinionUsers .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  width: 50px;
+  height: 50px;
+}
+
+.OpinionUsers .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  left: -15px;
+  width: 50px;
+  height: 50px;
 }
 
 .box_right .title {
   color: #7db201;
   font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
   transform: rotate(-90deg);
 }
 
 .box_left {
-  flex: 10;
+  grid-column: 1/6;
+  overflow: hidden;
 }
 
 .box_left .opinion {
-  font-size: 1rem;
+  font-size: .9rem !important;
 }
 
 .opinion_content {
   padding: 10px;
-  margin: 0 5px;
   background-color: white;
   border-radius: 25px;
 }
@@ -74,13 +105,11 @@
 }
 
 .rightLogo {
-  /* text-align: right; */
   display: flex;
   justify-content: end;
 }
 
 .leftLogo {
-  /* text-align: right; */
   display: flex;
   justify-content: start;
 }

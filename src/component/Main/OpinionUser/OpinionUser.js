@@ -28,7 +28,6 @@ export default function OpinionUser () {
       <div className='boxSlider'>
         <div className='box_right'>
           <p className='title'>
-            {' '}
             <AiOutlineLine className='logo' /> نظرات کاربران
             <AiOutlineLine className='logo' />
           </p>
@@ -36,22 +35,81 @@ export default function OpinionUser () {
         <div className='box_left'>
           <div className='slider_article'>
             <Swiper
-              slidesPerView={4}
+              rewind={true}
               navigation={true}
               breakpoints={{
-                640: {
-                  slidesPerView: 2
+                450: {
+                  slidesPerView: 1,
+                  spaceBetween: 10
+                },
+                575: {
+                  slidesPerView: 2,
+                  spaceBetween: 10
                 },
                 768: {
-                  slidesPerView: 3
+                  slidesPerView: 3,
+                  spaceBetween: 10
                 },
-                1200: {
-                  slidesPerView: 4
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 10
                 }
               }}
               modules={[Navigation]}
               className='mySwiper'
             >
+              <SwiperSlide>
+                <div className='opinion_content'>
+                  <img
+                    className='img_user'
+                    loading='lazy'
+                    src={personImg}
+                    alt='img_1'
+                  />
+                  <div className='opinion_body'>
+                    <h4 className='body_title'>احسان امانیان</h4>
+                    <p className='rightLogo'>
+                      <img src={rightLogo} alt='rightLogo' />
+                    </p>
+                    <p className='opinion'>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک استلورم ایپسوم متن ساختگی با
+                      تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                      گرافیک استلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                      صنعت چاپ و با استفاده از طراحان گرافیک است
+                    </p>
+                    <p className='leftLogo'>
+                      <img src={leftLogo} alt='leftLogo' />
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className='opinion_content'>
+                  <img
+                    className='img_user'
+                    loading='lazy'
+                    src={personImg}
+                    alt='img_1'
+                  />
+                  <div className='opinion_body'>
+                    <h4 className='body_title'>احسان امانیان</h4>
+                    <p className='rightLogo'>
+                      <img src={rightLogo} alt='rightLogo' />
+                    </p>
+                    <p className='opinion'>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک استلورم ایپسوم متن ساختگی با
+                      تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                      گرافیک استلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                      صنعت چاپ و با استفاده از طراحان گرافیک است
+                    </p>
+                    <p className='leftLogo'>
+                      <img src={leftLogo} alt='leftLogo' />
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
               <SwiperSlide>
                 <div className='opinion_content'>
                   <img
