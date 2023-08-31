@@ -32,8 +32,7 @@ export default function PropMainWpSlider () {
         </h3>
         <img src={cupLogo} className='logo_cup' alt='cup' />
         <Swiper
-        //   slidesPerView={4}
-        //   spaceBetween={20}
+
           modules={[Pagination]}
           pagination={{
             clickable: true
