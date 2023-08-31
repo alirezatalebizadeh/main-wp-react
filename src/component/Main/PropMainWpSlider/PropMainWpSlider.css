@@ -2,15 +2,25 @@
   position: relative;
   margin: 150px 0;
 }
+
+.prop_mainWp .prop_header {
+  max-width: 400px !important;
+  height: auto;
+}
+
 .prop_mainWp .body_title {
   font-size: 1.2rem;
+  height: 60px;
 }
+
 .prop_header {
   width: 100%;
 }
+
 .prop_mainWp p {
   font-size: 1.1rem;
 }
+
 .logo_cup {
   position: absolute;
   top: -100px;
@@ -26,9 +36,11 @@
   box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.249);
   border-radius: 25px;
   padding: 10px;
+  /* margin-right: 15px !important; */
+  margin: 0 auto;
   text-align: center;
 }
 
 .prop_mainWp p {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }

@@ -21,7 +21,7 @@
 .clip_Path {
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: -75px;
+  margin-top: -75px !important;
   height: 150px;
   background-color: #1c1c1a;
   clip-path: ellipse(50% 49% at 50% 50%);
